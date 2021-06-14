@@ -1,0 +1,13 @@
+#github{
+	margin:auto;
+	width: 100%;
+}
+body{
+	background-image: url('image/twigs-4211837_1280.webp');
+	color:aliceblue;
+}
+svg{
+	display:block;
+	position: absolute;
+	bottom:0; right:0;
+}
