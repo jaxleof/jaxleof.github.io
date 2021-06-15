@@ -6,8 +6,38 @@ body{
 	background-image: url('image/twigs-4211837_1280.webp');
 	color:aliceblue;
 }
-svg{
-	display:block;
+.github{
+	width: 100px;
 	position: absolute;
 	bottom:0; right:0;
+}
+#githubtip {
+	position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+	text-align: center;
+	visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    border-radius: 6px;
+    padding: 5px 0;
+	opacity: 0;
+	transition: opacity .6s
+}
+.github:hover #githubtip {
+	opacity: 1;
+    visibility: visible;
+}
+h1{
+	display: inline-block;
+	-moz-outline-radius: 45;
+}
+.query{
+	display:inline-block;
+	background-color: aliceblue;
+	opacity: 0.7;
+	color: black;
 }
