@@ -31,13 +31,19 @@ body{
 	opacity: 1;
     visibility: visible;
 }
-h1{
-	display: inline-block;
-	-moz-outline-radius: 45;
-}
 .query{
 	display:inline-block;
 	background-color: aliceblue;
 	opacity: 0.7;
 	color: black;
+}
+#main {
+	margin: 5% 5%;
+	background-color: rgba(255, 255, 255, 0.76);
+	padding: 3% 5%;
+	padding-top: 1%;
+	color: black;
+	font-family: "Comic Sans MS","-apple-system","SF UI Text","Arial","PingFang SC","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei","sans-serif","Consolas";
+	color:rgb(81, 81, 81);
+	outline:rgb(81, 81, 81);
 }
