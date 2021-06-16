@@ -47,3 +47,7 @@ body{
 	color:rgb(81, 81, 81);
 	outline:rgb(81, 81, 81);
 }
+
+h3,h4,h5 {
+	margin: 8px 0;
+}
